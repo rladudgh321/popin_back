@@ -16,7 +16,7 @@ datasource db {
 
 model Cart {
   idx        Int      @id @default(autoincrement())
-  product   String?
+  product   String? 
   user      User     @relation(fields: [userId], references: [idx])
   userId    Int      @unique
   createdAt DateTime @default(now())
