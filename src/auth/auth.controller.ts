@@ -1,7 +1,6 @@
 import { Body, Controller, Post, UnauthorizedException } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { ApiTags } from '@nestjs/swagger';
-import { User } from '@prisma/client';
 import { CreateUserReqDto } from 'src/user/dto/req.dto';
 
 @ApiTags('Auth')

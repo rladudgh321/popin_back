@@ -15,6 +15,6 @@ export class FindUserResDto {
   createdAt: string;
 
   // static toDto({ id, email, role, createdAt }: User) {
-    // return { id, email, role: role.toString(), createdAt: createdAt.toISOString() };
+  // return { id, email, role: role.toString(), createdAt: createdAt.toISOString() };
   // }
 }
